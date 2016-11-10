@@ -13,7 +13,7 @@ git clone https://username:password@bitbucket.org/yourrepository.git directory
 where 'directory' is your website direcory.
 5. in deploy.php add your own PRIVATE_KEY here:
 define('PRIVATE_KEY', 'BLvzt7HRiLrI4xUny1');
-6. Add deploy.php into git repository main folder and do "git pull" to have that file in the main folder or your website.
+6. Add deploy.php into git repository main folder and do "git pull" to have that file in the main folder of your website.
 7. Setup correct persmissions for website directory. In my case mostly work:
 sudo chown -R www-data:www-data ...
 sudo chmod -R ug+rwx ...
